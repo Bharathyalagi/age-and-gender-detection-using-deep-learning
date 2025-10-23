@@ -18,6 +18,7 @@ This project predicts **age** and **gender** from facial images using deep learn
 ## 🧩 Project Structure
 
 age-gender-detection/
+
 ├── project.ipynb
 
 ├── requirements.txt # Python dependencies
@@ -95,6 +96,7 @@ The notebook includes code to compute and display a confusion matrix, precision,
 
 
 # Thank You
+
 
 
 
