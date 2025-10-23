@@ -54,7 +54,40 @@ data/adience/
 ```
 
 ### 4️⃣ Run the Notebook
-Open project.ipynb in Jupyter Notebook or JupyterLab and run all cells step-by-step.
+Open project.ipynb in Jupyter/kaggle/collab Notebook and run all cells step-by-step.
+
+### Optional
+## Environment and How I ran experiments
+
+All experiments and results were produced in a Kaggle notebook environment (GPU-enabled). If you want to reproduce the results locally, use Python 3.8+ and install the dependencies from `requirements.txt`. Some functionality (GPU training) will be faster on a CUDA-enabled GPU.  
+If you ran this project in a different environment, please update the environment details here.
+
+## Evaluation and Metrics
+
+The main evaluation metrics reported in the paper and produced by the notebook are:
+
+**Gender Detection**
+- Training accuracy: 96.59%
+- Validation accuracy: 86.14%
+- Epochs: 50
+
+**Gender Detection (Augmented)**
+- Training accuracy: 79.32%
+- Validation accuracy: 81.25%
+- Epochs: 100
+
+**Age Detection**
+- Training accuracy: 62.73%
+- Validation accuracy: 58.42%
+- Epochs: 200
+
+Overall, the system performed **strongly in gender detection** due to its binary nature and the use of the Sigmoid function.  
+**Age prediction** achieved moderate accuracy because of overlapping facial features among age groups, but still demonstrated solid generalization with proper data augmentation.  
+Future improvements can focus on **balanced age classes**, **larger datasets**, and **custom activation or ensemble models** to further improve age prediction accuracy.
+
+### Confusion matrix and classification report
+The notebook includes code to compute and display a confusion matrix, precision, recall and F1 scores for gender classification. See the `Evaluation` section of `project.ipynb` to reproduce these plots and tables.
 
 
+#### Thank You
 
