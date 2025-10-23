@@ -1,4 +1,3 @@
-hi
 
 # Age and Gender Detection using Deep Learning
 
@@ -19,7 +18,7 @@ This project predicts **age** and **gender** from facial images using deep learn
 ## 🧩 Project Structure
 
 age-gender-detection/
-├── project.ipynb 
+├── project.ipynb, 
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Files and folders to ignore in Git
 ├── LICENSE # License for reuse
@@ -45,7 +44,8 @@ pip install -r requirements.txt
 This project uses the **Adience Benchmark Dataset** for age and gender classification.
 
 Download link:  
-[https://talhassner.github.io/home/projects/Adience/Adience-data.html]
+[https://talhassner.github.io/home/projects/Adience/Adience-data.html],
+
 (https://talhassner.github.io/home/projects/Adience/Adience-data.html)
 
 After downloading, place the dataset in: 
@@ -89,5 +89,6 @@ Future improvements can focus on **balanced age classes**, **larger datasets**, 
 The notebook includes code to compute and display a confusion matrix, precision, recall and F1 scores for gender classification. See the `Evaluation` section of `project.ipynb` to reproduce these plots and tables.
 
 
-#### Thank You
+# Thank You
+
 
