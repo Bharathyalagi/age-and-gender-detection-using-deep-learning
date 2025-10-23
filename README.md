@@ -50,9 +50,9 @@ pip install -r requirements.txt
 This project uses the **Adience Benchmark Dataset** for age and gender classification.
 
 Download link:  
-[https://talhassner.github.io/home/projects/Adience/Adience-data.html],
+[https://talhassner.github.io/home/projects/Adience/Adience-data.html]
 
-(https://talhassner.github.io/home/projects/Adience/Adience-data.html)
+[https://www.kaggle.com/datasets/ttungl/adience-benchmark-gender-and-age-classification]
 
 After downloading, place the dataset in: 
 ```bash
@@ -96,6 +96,7 @@ The notebook includes code to compute and display a confusion matrix, precision,
 
 
 # Thank You
+
 
 
 
